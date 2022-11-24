@@ -3,6 +3,7 @@ import Home from "./routes/home/home.component";
 import Shop from "./routes/shop/shop.component";
 import AboutMe from "./routes/aboutme/aboutme.component";
 import Navbar from "./components/navbar/navbar.component";
+import SignIn from "./routes/sign-in/sign-in.component";
 import { Routes, Route } from "react-router-dom";
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
           <Route index element={<Home />} />
           <Route path="shop" element={<Shop />} />
           <Route path="aboutme" element={<AboutMe />} />
+          <Route path="sign-in" element={<SignIn/>}/>
         </Route>
       </Routes>
     );
