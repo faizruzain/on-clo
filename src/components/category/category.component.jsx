@@ -8,7 +8,7 @@ class Category extends Component {
 
     return (
       <div className="category-container">
-        <img src={img} alt="" />
+        <img className="background-image" src={img} alt="" />
         <div className="category-body-container">
           <h2>{title}</h2>
           <p>Shop Now</p>
